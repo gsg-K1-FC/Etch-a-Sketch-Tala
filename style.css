@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+
+body{
+background-color: cadetblue;
+}
+
+
+#container {
+  position: relative;
+    top: 100px;
+    background-color: white;
+    border:1px solid #000;
+    font-size: 0;
+    margin: auto;
+    height:500px;
+    width:900px;
+    display: grid;
+
+}
+
+.grid-item {
+  margin:0;
+padding:0;
+border:none;
+outline:1px solid #000;
+display:inline-block;
+}
+
+h1 {
+color: white;
+ text-align: center;
+margin-top: 45px;
+}
+
+
+.new-btn {
+position: absolute;
+top: 110px;
+left: 47%;
+padding: 15px;
+font-size: 20px;
+
+}

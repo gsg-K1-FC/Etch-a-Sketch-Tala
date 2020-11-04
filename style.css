@@ -1,58 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Itim', cursive;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
 
 body{
-  background-color: cadetblue;
+background-color: cadetblue;
 }
-/*    
-  :root {
-    --grid-cols: 1;
-    --grid-rows: 1;
-  } */
-  
-  #container {
-    position: relative;
-    top: 100px;
-    background-color: white;
-    border:1px solid #000;
-    font-size: 0;
-    margin: auto;
-    margin-bottom: 100px;
-    height:960px;
-    width:960px;
-    display: grid;
-    /* grid-gap: 5em; */
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
-    
-  }
-  
-  .grid-item {
-  	margin:0;
-	padding:0;
-	border:none;
-	outline:1px solid #000;
-	display:inline-block;
-  }
+
+
+#container {
+  position: relative;
+  top: 100px;
+  background-color: white;
+  border:1px solid #000;
+  font-size: 0;
+  margin: auto;
+  margin-bottom: 100px;
+  height:800px;
+  width:1000px;
+  display: grid;
+
+}
+
+.grid-item {
+  margin:0;
+padding:0;
+border:none;
+outline:1px solid #000;
+display:inline-block;
+}
 
 h1 {
-  color: white;
- 
-    text-align: center;
-  margin-top: 50px;
+color: white;
+ text-align: center;
+margin-top: 45px;
 }
 
 
 .new-btn {
-  position: absolute;
-    top: 110px;
-    left: 47%;
- padding: 20px;
- 
-  font-size: 20px;
+position: absolute;
+top: 110px;
+left: 47%;
+padding: 15px;
+font-size: 20px;
 
 }

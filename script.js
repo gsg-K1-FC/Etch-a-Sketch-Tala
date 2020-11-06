@@ -17,3 +17,26 @@ function creatGrid(size) {
 };
 creatGrid(size);
 
+//Changing the background color 
+const cell = document.querySelectorAll(".grid-item");
+
+cell.forEach(element => {
+  element.addEventListener("mouseover", function () {
+    element.style.backgroundColor = colors();
+  });
+
+});
+
+//a function to chose a random color
+function colors() {
+  let colorArray = [];
+  for (let i = 0; i < 3; i++) {
+    colorArray.push(Math.floor(Math.random() * (255 - 0));
+  }
+  // rgb -> hex
+  let color = colorArray
+    .map(x => x.toString(16))
+    .join('');
+
+  return `#${color}`;
+}

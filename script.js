@@ -17,18 +17,26 @@ creatGrid(size);
 
 //asking the user to enter the number of grids
 var newButton = document.querySelector(".new-btn");
-newButton.addEventListener("click", function () {
+newButton.addEventListener("click",test);
 
-  var number = prompt("Please enter number of grids you want:", "16");
-  if (number == null || number == "" ) {
-    creatGrid(16);
-    clear();
-  } else {
-    creatGrid(number);
-    clear();
-  }
+function test () {
+ var number = prompt("Please enter number of grids you want:", "16");
+  number = parseInt(number);
+  if (isNaN(number) || number <=0)
+     {
+     alert("Please enter a valid number");
+     creatGrid(16);
+     clear();
+     }
+else
+{
+  creatGrid(number);
+  clear();
+}
 
-});
+
+
+}
 
 // Changing the background color
 var randomButton = document.querySelector(".ran-btn");

@@ -17,9 +17,9 @@ creatGrid(size);
 
 //asking the user to enter the number of grids
 var newButton = document.querySelector(".new-btn");
-newButton.addEventListener("click",test);
+newButton.addEventListener("click",gridsNumber);
 
-function test () {
+function gridsNumber () {
  var number = prompt("Please enter number of grids you want:", "16");
   number = parseInt(number);
   if (isNaN(number) || number <=0)

@@ -22,10 +22,10 @@ newButton.addEventListener("click", function () {
   var number = prompt("Please enter number of grids you want:", "16");
   if (number == null || number == "" ) {
     creatGrid(16);
-   
+    clear();
   } else {
     creatGrid(number);
-   
+    clear();
   }
 
 });
@@ -69,6 +69,7 @@ function clear() {
   const cell = document.querySelectorAll(".grid-item");
   cell.forEach(element => {
       element.style.backgroundColor ="white";
+
   });
 }
 
@@ -83,21 +84,15 @@ if (ele) {
 }
 
 
-ej.base.enableRipple = true;
-var colorPicker = new ej.inputs.ColorPicker({ cssClass: 'e-hide-value' }, '#element');
-
+//choose color
 var theInput = document.getElementById("element");
-var theColor = theInput.value;
-
-console.log(theColor);
-
 theInput.addEventListener("input", choseColor); 
 
-function choseColor() {
+function choseColor(event) {
   const cell = document.querySelectorAll(".grid-item");
   cell.forEach(element => {
     element.addEventListener("mouseover", function () {
-      element.style.backgroundColor = theColor;
+      element.style.backgroundColor =  event.target.value;
     });
 
   });

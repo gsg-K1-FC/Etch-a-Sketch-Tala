@@ -51,7 +51,7 @@ function changeColor()
 function colors() {
   let colorArray = [];
   for (let i = 0; i < 3; i++) {
-    colorArray.push(Math.floor(Math.random() * (255 - 0));
+    colorArray.push(Math.floor(Math.random() * (255 - 0)));
   }
   // rgb -> hex
   let color = colorArray

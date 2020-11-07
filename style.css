@@ -118,3 +118,27 @@ color: white;
 margin: 7px;
 width: 100px;
 }
+
+@media (max-width: 1200px) {
+  .wrap {
+    left: 45%;
+  }
+
+.clr-btn {
+  left: 80%;
+
+}
+.new-btn {
+  left: 65%;
+}
+#container {
+  position: relative;
+  top: 100px;
+  margin: auto;
+  height:500px;
+  width:600px;
+  display: grid;
+  margin-bottom: 50px;
+
+}
+}

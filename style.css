@@ -119,6 +119,8 @@ margin: 7px;
 width: 100px;
 }
 
+
+
 @media (max-width: 1200px) {
 .wrap {
   left: 45%;
@@ -133,11 +135,8 @@ left: 65%;
 }
 #container {
 top: 100px;
-margin: auto;
 height:500px;
 width:600px;
-
-
 }
 }
 
@@ -146,10 +145,8 @@ width:600px;
   position: absolute;
   top: 95px;
   left: 40%;
-  padding: 15px;
   width: 130px;
   font-size: 12px;
- 
 }
 
 .clr-btn {
@@ -157,7 +154,6 @@ position: absolute;
 top: 160px;
 left: 50%;
 padding: 15px;
-border-radius: 50px;
 font-size: 12px;
 
 }
@@ -165,26 +161,20 @@ font-size: 12px;
 position: relative;
 top: 100px;
 left: 5%;
-padding: 15px;
-border-radius: 50px;
 font-size: 12px;
 width: 100px;
 
 }
 #container {
-
 top:130px;
 margin: auto;
 height:200px;
 width:300px;
-
 }
 .ran-btn{
 position: absolute;
 top: 110px;
 left: 5%;
-padding: 15px;
-border-radius: 50px;
 font-size: 12px;
 }
 h1 {
@@ -210,7 +200,6 @@ font-size: 15px
 #container {
 
 top: 100px;
-margin: auto;
 height:500px;
 width:600px;
 

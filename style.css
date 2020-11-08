@@ -132,13 +132,11 @@ left: 80%;
 left: 65%;
 }
 #container {
-position: relative;
 top: 100px;
 margin: auto;
 height:500px;
 width:600px;
-display: grid;
-margin-bottom: 50px;
+
 
 }
 }
@@ -174,12 +172,11 @@ width: 100px;
 
 }
 #container {
-position: relative;
+
 top:130px;
 margin: auto;
 height:200px;
 width:300px;
-display: grid;
 
 }
 .ran-btn{
@@ -211,13 +208,12 @@ left: 80%;
 font-size: 15px
 }
 #container {
-position: relative;
+
 top: 100px;
 margin: auto;
 height:500px;
 width:600px;
-display: grid;
-margin-bottom: 50px;
+
 
 }
 .ran-btn{

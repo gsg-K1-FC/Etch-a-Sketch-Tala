@@ -147,7 +147,7 @@ margin-bottom: 50px;
 .wrap {
   position: absolute;
   top: 95px;
-  left: 50%;
+  left: 40%;
   padding: 15px;
   width: 130px;
   font-size: 12px;
@@ -157,24 +157,25 @@ margin-bottom: 50px;
 .clr-btn {
 position: absolute;
 top: 160px;
-left: 10%;
-padding: 15px;
-border-radius: 50px;
-font-size: 12px
-
-}
-.new-btn {
-position: absolute;
-top: 160px;
-left: 60%;
+left: 50%;
 padding: 15px;
 border-radius: 50px;
 font-size: 12px;
 
 }
+.new-btn {
+position: relative;
+top: 100px;
+left: 5%;
+padding: 15px;
+border-radius: 50px;
+font-size: 12px;
+width: 100px;
+
+}
 #container {
 position: relative;
-top: 150px;
+top:130px;
 margin: auto;
 height:200px;
 width:300px;
@@ -194,19 +195,19 @@ font-size: 20px;
 }
 }
 
-@media (min-width: 450px) {
+@media (max-width: 800px) and (min-width: 450px) {
 .wrap {
-  left: 35%;
+  left: 42%;
   font-size: 15px
 }
 
 .clr-btn {
-left: 80%;
+left: 100%;
 font-size: 15px
 
 }
 .new-btn {
-left: 60%;
+left: 80%;
 font-size: 15px
 }
 #container {

@@ -22,5 +22,6 @@ In this project I'll be creating a pretty neat toy for my portfolio to flex my D
 
 ---
 
-## You can see the final Result by clicking the below link: 
-
+## You can see the final Result by clicking the below link:
+---
+[Etch A Sketch](https://gsg-k1-fc.github.io/Etch-a-Sketch-Tala/)
